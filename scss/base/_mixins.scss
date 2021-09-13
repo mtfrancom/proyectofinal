@@ -1,0 +1,7 @@
+@mixin transition ($propiedad1) {
+    transition-duration: $propiedad1;
+}
+
+@mixin propiedades ($fontSize) {
+    font-size: $fontSize;
+}
