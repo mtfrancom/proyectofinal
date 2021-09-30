@@ -1,0 +1,114 @@
+@import '../base/variables';
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import '../base/mixins';
+
+.navbar-color {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: $color-bg-nav;
+  }
+  
+  header img {
+    height: 20vh;
+    width: 20vh;
+    margin: 10px;
+  }
+  
+  .nav-item a {
+    color: #fff;
+  }
+  .nav-item a:hover {
+    color: grey;
+  }
+  
+
+.main-header {
+    width: 100%;
+}
+
+.logo {
+    @include propiedades (1.8em);
+    color: $color-bg-nav;
+    padding: 10px;
+    font-family: 'Pacifico', cursive;
+    font-weight: 100;
+}
+
+.main-header__contactInfo__phone {
+    background-color: $color-bg-nav;
+    color: white;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.main-header__contactInfo__address {
+    margin: 0;
+    padding: 10px;
+}
+
+.main-header [class*=icon-]:before {
+    position: relative;
+    top:2px;
+
+}
+
+.banner {
+    margin-top: 0;
+    position: relative;  
+}
+
+.banner:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+    top:0;
+    
+}
+
+.banner__img {
+    
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.banner__content {
+    width: 90%;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    z-index: 1500;
+    top:50%;
+
+}
+
+
+#section-one {
+
+    margin-top: 40px;
+    padding: 10px;
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        p {
+
+            padding: 15px;
+            margin: 10px;
+            font-size: 20px;
+            text-align: justify;
+
+
+                
+    
+        
+        }
+
+}
+

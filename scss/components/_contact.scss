@@ -1,0 +1,55 @@
+/* formulario de pag contacto */
+
+.body-contacto {
+    background-image: radial-gradient(circle at 87.5% 12.5%, #66f7ff 0, #66e1f1 16.67%, #67cadb 33.33%, #66b1c2 50%, #6399a8 66.67%, #608390 83.33%, #5a707a 100%);
+}
+
+.formulario {
+  width: 450px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.titulo-formulario {
+  font-family: "roboto", cursive;
+  text-align: center;
+  color: antiquewhite;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.casillas-formulario {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-family: "roboto", cursive;
+  color: black;
+  font-size: 20px;
+  border: none;
+}
+
+textarea {
+  min-height: 100px;
+  max-height: 250px;
+  max-width: 100%;
+}
+
+.boton-form-contacto {
+  background: #31384a;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  font-family: "roboto", cursive;
+  font-size: 20px;
+  color: antiquewhite;
+}
+
+.boton-form-contacto:hover {
+  cursor: pointer;
+}
+
+/* fin de formulario de pagina contacto */

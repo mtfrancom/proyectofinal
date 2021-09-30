@@ -1,0 +1,20 @@
+.titulo-menu {
+    font-size: 35px;
+    padding: 50px;
+    font-family: $font-family;
+    font-weight: bold;
+}
+
+.card-img-top {
+    width: 18rem;
+    height: 18rem;
+}
+
+@media only screen and (max-width: 576px) {
+    
+    .card-img-top { 
+    width: 12rem;
+    height: 10rem;
+    margin: 20px 0;
+    }   
+}

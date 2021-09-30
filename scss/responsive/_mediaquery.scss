@@ -1,0 +1,39 @@
+/* MOBILE */
+
+
+
+
+    /*.container-header {
+      background-image: none;
+      padding-bottom: 150px;      
+    }
+    :root {
+      background-image: none;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+      object-fit: cover;
+    }
+    .menu {
+      flex-direction: column;
+      border-radius: 15px;
+    }
+    .grid-container {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }  
+    .text3Bis:hover {
+      display: none;
+    }
+  }
+ 
+  @media only screen and (max-width: 576px) {
+    .grid-container-empresa {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+    
+  }
+
+  */
