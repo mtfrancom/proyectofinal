@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,400;1,600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+/* Inicio header */
 .navbar-color {
   font-size: 20px;
   font-weight: bold;
@@ -94,6 +95,7 @@ header img {
   text-align: justify;
 }
 
+/* Fin header */
 * {
   box-sizing: border-box;
 }
@@ -110,6 +112,7 @@ body {
   padding: 200px;
 }
 
+/* Inicio footer */
 footer {
   background-color: rgba(34, 8, 8, 0.897);
   color: #DE423A;
@@ -126,6 +129,7 @@ footer {
   color: #DE423A;
 }
 
+/* Fin footer */
 /* Cards index */
 #cards-container {
   padding-top: 8em;
@@ -202,41 +206,6 @@ footer {
   height: 15rem;
 }
 
-/* MOBILE */
-/*.container-header {
-    background-image: none;
-    padding-bottom: 150px;      
-  }
-  :root {
-    background-image: none;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-    object-fit: cover;
-  }
-  .menu {
-    flex-direction: column;
-    border-radius: 15px;
-  }
-  .grid-container {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-  }  
-  .text3Bis:hover {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 576px) {
-  .grid-container-empresa {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-  }
-
-}
-
-*/
 .btn-wsp {
   position: fixed;
   width: 55px;
@@ -341,6 +310,15 @@ textarea {
     width: 12rem;
     height: 10rem;
     margin: 20px 0;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .formulario {
+    width: 100%;
+  }
+
+  .formulario-container {
+    width: 100%;
   }
 }
 

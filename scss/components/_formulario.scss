@@ -1,0 +1,13 @@
+@import '../base/mixins';
+
+
+@media only screen and (max-width: 576px) {
+    .formulario {
+        width: 100%;
+
+    }
+
+    .formulario-container {
+        width: 100%;
+    }
+}

@@ -1,5 +1,8 @@
 @import '../base/mixins';
 @import '../base/variables';
+
+/* Inicio footer */
+
 footer {
     background-color: rgba(34, 8, 8, 0.897);
     color: $color-bg-nav;
@@ -21,3 +24,5 @@ footer {
     }
 
 }
+
+/* Fin footer */
